@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon</title>
+
+    <meta name="author" content="Little Lemon Restaurant">
+    <meta name="description" content="A brief description">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="company logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="menu.html">menu</a></li>
+            <li><a href="book.html">book</a></li>
+            <li><a href="about.html">about</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section> <!--each section will be a row of content on the website. because each row is its own element, can use a flexbox layout to split the content into the required number of columns. the article element will represent each column becaue each column will be self contained and content is unrelated to the other columns -->
+            <article id="hero">
+                <h1>Join us for Happy Hour! 3-6 pm Daily </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, dolores quod velit repellendus blanditiis voluptatem odio ipsa deleniti ipsam voluptate asperiores, saepe totam veritatis! Magnam consequuntur voluptate corporis dolores labore?
+                </p>
+            </article>
+        </section>
+        <section>
+            <article id="info">
+                <h2>Our Menu</h2>
+                <p>
+                    <img src="pasta.jpeg" width="320px" height="190px"><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae natus, asperiores tempora illo soluta eligendi nesciunt inventore quidem sapiente voluptates laboriosam veritatis provident sed a tenetur officiis molestias nobis quas?
+                </p>
+            </article>
+            <article id="info">
+                <h2>Dine With Us</h2>
+                <p>
+                    <img src="wine2.jpeg" width="320px" height="190px"><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae natus, asperiores tempora illo soluta eligendi nesciunt inventore quidem sapiente voluptates laboriosam veritatis provident sed a tenetur officiis molestias nobis quas?
+                </p>
+            </article>
+            <article id="info">
+                <h2>Business Hours</h2>
+                <p>
+                    <img src="app.jpeg" width="320px" height="190px"><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae natus, asperiores tempora illo soluta eligendi nesciunt inventore quidem sapiente voluptates laboriosam veritatis provident sed a tenetur officiis molestias nobis quas?
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div> <!--use div instead of article because semantically the footer content should be considered as a whole-->
+            <img src="logo2.png" width="50">
+        </div>
+        <div>
+            <p>Copywright Little Lemon</p>
+        </div>
+    </footer>
+</body>
+</html>

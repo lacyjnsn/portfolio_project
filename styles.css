@@ -1,0 +1,133 @@
+body {
+    background-color: #d3ded9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 2rem;
+    color: rgb(28, 68, 67);
+    justify-content: center;
+    text-shadow: 3px 3px #eedc73;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
+
+nav {
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #73a17f;
+    padding: 10px;
+    padding-inline-start: 0rem;
+}
+
+nav ul li {
+    display: inline-block;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+nav ul a {
+    color: blanchedalmond;
+    font-family: monospace;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    color: #eedc73;
+    text-decoration: underline;
+}
+
+nav ul a:visited {
+    color: darkolivegreen;
+}
+
+section {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5%;
+}
+
+article {
+    flex: 1 1;
+    padding: 20px;
+    background-color: #eedc73;
+    border-radius: 1rem;
+}
+
+article img {
+    max-width: 100%; /*makes the images grow or shrink to fit within the bounds of the column!*/
+}
+
+#info {
+    max-width: 30%;
+    flex-shrink: 1;
+}
+
+footer{
+    display: flex;
+    margin: 1rem;
+    gap: 2 rem 1 rem;
+
+}
+
+footer img {
+    max-width: 50%;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer div p {
+    border-top:#4e7458;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    text-align: end;
+}
+
+section h2 {
+    text-decoration: double ;
+    color: #4e7458;
+}
+
+#hero {
+    background-image: url(pasta1.jpeg);
+    padding: 20px;
+}
+
+#hero p {
+    max-width: 75%; /*text starting from left will only extend out 75% of over the size of the section. indented from right */
+}
